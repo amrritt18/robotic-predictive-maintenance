@@ -1,0 +1,2 @@
+model,decision_threshold,accuracy,average_precision,roc_auc,precision,recall,f1,balanced_accuracy,true_positives,false_positives,true_negatives,false_negatives,false_alarms_per_1000
+Hist_Gradient_Boosting,0.25,0.957,0.8246075292100836,0.9744245524296676,0.4338235294117647,0.8676470588235294,0.5784313725490197,0.9138959931798807,59,77,1855,9,38.5

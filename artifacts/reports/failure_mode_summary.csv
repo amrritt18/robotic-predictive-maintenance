@@ -1,0 +1,6 @@
+Failure Mode,failure_count,failure_rate_pct
+TWF,46,0.45999999999999996
+HDF,115,1.15
+PWF,95,0.95
+OSF,98,0.98
+RNF,19,0.19

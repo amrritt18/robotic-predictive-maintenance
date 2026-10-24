@@ -1,0 +1,9 @@
+,value
+dataset_rows,10000.0
+dataset_columns,14.0
+missing_values,0.0
+duplicate_rows,0.0
+duplicate_udi,0.0
+machine_failures,339.0
+machine_failure_rate_pct,3.39
+label_disagreements,27.0

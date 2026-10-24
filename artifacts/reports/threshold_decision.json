@@ -1,0 +1,18 @@
+{
+    "selected_model": "Hist_Gradient_Boosting",
+    "selected_threshold": 0.25,
+    "selection_data": "Training out-of-fold predictions",
+    "minimum_recall_constraint": 0.85,
+    "selection_rule": "Maximize precision among tested thresholds with recall >= 0.85",
+    "imbalance_strategy": "Class weighting",
+    "smote_used": false,
+    "random_oversampling_used": false,
+    "random_undersampling_used": false,
+    "test_set_used_for_threshold_selection": false,
+    "oof_precision": 0.44550669216061184,
+    "oof_recall": 0.8597785977859779,
+    "oof_f1": 0.5869017632241813,
+    "oof_true_positives": 233,
+    "oof_false_positives": 290,
+    "oof_false_negatives": 38
+}

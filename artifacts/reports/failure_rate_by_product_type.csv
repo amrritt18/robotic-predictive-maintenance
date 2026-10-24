@@ -1,0 +1,4 @@
+Type,total_observations,non_failure_count,failure_count,failure_rate_pct
+L,6000,5765,235,3.916666666666667
+M,2997,2914,83,2.7694361027694363
+H,1003,982,21,2.0937188434695915

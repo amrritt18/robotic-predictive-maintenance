@@ -1,0 +1,28 @@
+{
+    "model_name": "Hist_Gradient_Boosting",
+    "decision_threshold": 0.25,
+    "target_column": "Machine failure",
+    "positive_class": 1,
+    "negative_class": 0,
+    "feature_columns": [
+        "Air temperature [K]",
+        "Process temperature [K]",
+        "Rotational speed [rpm]",
+        "Torque [Nm]",
+        "Tool wear [min]",
+        "Type"
+    ],
+    "numerical_features": [
+        "Air temperature [K]",
+        "Process temperature [K]",
+        "Rotational speed [rpm]",
+        "Torque [Nm]",
+        "Tool wear [min]"
+    ],
+    "categorical_features": [
+        "Type"
+    ],
+    "imbalance_strategy": "class_weight_balanced",
+    "threshold_selection": "Training out-of-fold predictions; maximize precision among tested thresholds with recall >= 0.85",
+    "test_set_used_for_threshold_selection": false
+}

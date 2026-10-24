@@ -1,0 +1,3 @@
+model,average_precision,roc_auc
+Hist_Gradient_Boosting,0.7778052183112794,0.9705164667120858
+Random_Forest,0.7215053701510232,0.9686373121979377

@@ -1,0 +1,46 @@
+{
+    "random_state": 42,
+    "test_size": 0.2,
+    "target_column": "Machine failure",
+    "feature_columns": [
+        "Air temperature [K]",
+        "Process temperature [K]",
+        "Rotational speed [rpm]",
+        "Torque [Nm]",
+        "Tool wear [min]",
+        "Type"
+    ],
+    "numerical_features": [
+        "Air temperature [K]",
+        "Process temperature [K]",
+        "Rotational speed [rpm]",
+        "Torque [Nm]",
+        "Tool wear [min]"
+    ],
+    "categorical_features": [
+        "Type"
+    ],
+    "excluded_columns": [
+        "UDI",
+        "Product ID",
+        "TWF",
+        "HDF",
+        "PWF",
+        "OSF",
+        "RNF"
+    ],
+    "train_observations": 8000,
+    "test_observations": 2000,
+    "train_failures": 271,
+    "test_failures": 68,
+    "transformed_feature_names": [
+        "Air temperature [K]",
+        "Process temperature [K]",
+        "Rotational speed [rpm]",
+        "Torque [Nm]",
+        "Tool wear [min]",
+        "Type_H",
+        "Type_L",
+        "Type_M"
+    ]
+}
